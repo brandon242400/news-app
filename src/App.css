@@ -1,38 +1,31 @@
-.App {
+body {
   text-align: center;
+  background: rgba(75, 75, 75, 0.5);
+  font-family: "PT Sans", sans-serif;
+  color: #333333;
+  background-image: url(./images/thomas-heintz-0tgMnMIYQ9Y-unsplash.jpg);
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+  background-blend-mode: darken;
+  background-attachment: fixed;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App {
+  margin: auto;
+  box-shadow: 2px 2px 5px 0px #555;
+  background-color: rgba(125, 125, 125, 0.75);
+
+  border: 1px solid black;
+  width: 98%;
+  /* padding: 3vh 2vw; */
+  /* height: 1500px; */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.article-display-container {
+  border: 3px solid black;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  flex-wrap: wrap;
+  height: auto;
+  margin: auto;
+  width: 60%;
 }
